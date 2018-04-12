@@ -1,0 +1,48 @@
+page{
+  
+  height: 100%;
+}
+.weather{
+  display: flex;
+  height: 35%;
+}
+.day_weather{
+  display: flex;
+  flex-direction:column;
+  width: 20%;
+  height: 100%;
+  align-items:center;
+  justify-content:space-around;
+}
+.weather_icon{
+  width: 70rpx;
+  height: 70rpx;
+}
+.weather_font{
+  color: #A1A2A2;
+}
+.selected_day_weather{
+  background-color: #FFF7F5;
+}
+.sun {
+    position: absolute;
+    top: 50rpx;
+    right: 100rpx;
+    height: 124rpx;
+    width: 124rpx;
+    border-radius: 100%;
+    background-color: #fff;
+   
+}
+.sunshie_one{
+   box-shadow: 0 0 0 56rpx rgba(255, 255, 255, 0.25)
+}
+.sunshie_two{
+   box-shadow: 0 0 0 56rpx rgba(255, 255, 255, 0.25), 0 0 0 124rpx rgba(255, 255, 255, 0.15);
+}
+.sunshie_three{
+  box-shadow: 0 0 0 56rpx rgba(255, 255, 255, 0.25), 0 0 0 124rpx rgba(255, 255, 255, 0.15), 0 0 0 206rpx rgba(255, 255, 255, 0.1)
+}
+.sunshie_four{
+   box-shadow: 0 0 0 56rpx rgba(255, 255, 255, 0.25), 0 0 0 124rpx rgba(255, 255, 255, 0.15), 0 0 0 206rpx rgba(255, 255, 255, 0.1), 0 0 0 288rpx rgba(255, 255, 255, 0.05);
+}

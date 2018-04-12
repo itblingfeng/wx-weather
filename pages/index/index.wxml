@@ -1,0 +1,33 @@
+
+<canvas canvas-id="myCanvas1" style='width:100%;height:65%' />
+<view class='weather'>
+  <view class='day_weather'>
+    <text class='weather_font'>Tus</text>
+    <image src='images/fine.png' class='weather_icon'></image>
+    <text class='weather_font'>30℃</text>
+  </view>
+  <view class='day_weather'>
+    <text class='weather_font'>Tus</text>
+    <image src='images/rain.png' class='weather_icon'></image>
+    <text class='weather_font'>30℃</text>
+  </view>
+  <view class='day_weather'>
+    <text class='weather_font'>Tus</text>
+    <image src='images/bigrain.png' class='weather_icon'></image>
+    <text class='weather_font'>30℃</text>
+  </view>
+  <view class='day_weather selected_day_weather'>
+    <text class='weather_font'>Tus</text>
+    <image src='images/cloud.png' class='weather_icon'></image>
+    <text class='weather_font'>30℃</text>
+  </view>
+  <view class='day_weather'>
+    <text class='weather_font'>Tus</text>
+    <image src='images/thunder.png' class='weather_icon'></image>
+    <text class='weather_font'>30℃</text>
+  </view>
+  <view class='sun sunshie_one ' wx:if="{{count%4==0}}"></view>
+<view class='sun sunshie_two' wx:elif="{{count%4==1}}"></view>
+<view class='sun sunshie_three' wx:elif="{{count%4==2}}"></view>
+<view class='sun sunshie_four' wx:else="{{count%4==3}}"></view>
+</view>
